@@ -1,0 +1,119 @@
+[
+{
+    "model": "courses.student",
+    "pk": 1,
+    "fields": {
+        "first_name": "Tom",
+        "last_name": "Rou",
+        "email": "rou@gmail.com",
+        "created": "2019-06-26T11:27:25.252Z",
+        "updated": "2019-06-26T11:27:25.252Z"
+    }
+},
+{
+    "model": "courses.student",
+    "pk": 2,
+    "fields": {
+        "first_name": "Piter",
+        "last_name": "Barton",
+        "email": "barton@gmail.com",
+        "created": "2019-06-26T11:27:45.615Z",
+        "updated": "2019-06-26T11:27:45.615Z"
+    }
+},
+{
+    "model": "courses.student",
+    "pk": 3,
+    "fields": {
+        "first_name": "Hu",
+        "last_name": "Mia",
+        "email": "mia@gmail.com",
+        "created": "2019-06-26T11:28:03.959Z",
+        "updated": "2019-06-26T11:28:03.959Z"
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 1,
+    "fields": {
+        "name": "Sport",
+        "description": "Lorem",
+        "start_date": "2019-06-26",
+        "end_date": "2019-06-29",
+        "created": "2019-06-26T11:31:49.548Z",
+        "updated": "2019-06-26T11:31:49.548Z"
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 2,
+    "fields": {
+        "name": "IT",
+        "description": "Lorem Lorem Lorem",
+        "start_date": "2019-10-26",
+        "end_date": "2019-10-31",
+        "created": "2019-06-26T11:32:30.704Z",
+        "updated": "2019-06-26T11:32:30.704Z"
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 3,
+    "fields": {
+        "name": "Social",
+        "description": "",
+        "start_date": "2019-07-10",
+        "end_date": "2019-07-18",
+        "created": "2019-06-26T21:16:27.809Z",
+        "updated": "2019-06-26T21:16:27.809Z"
+    }
+},
+{
+    "model": "courses.courseparticipant",
+    "pk": 1,
+    "fields": {
+        "course": 3,
+        "student": 3,
+        "completed": true,
+        "is_deleted": false,
+        "created": "2019-06-26T21:18:07.273Z",
+        "updated": "2019-06-26T21:18:07.273Z"
+    }
+},
+{
+    "model": "courses.courseparticipant",
+    "pk": 2,
+    "fields": {
+        "course": 2,
+        "student": 3,
+        "completed": false,
+        "is_deleted": false,
+        "created": "2019-06-26T21:18:15.754Z",
+        "updated": "2019-06-26T21:18:15.754Z"
+    }
+},
+{
+    "model": "courses.courseparticipant",
+    "pk": 3,
+    "fields": {
+        "course": 3,
+        "student": 2,
+        "completed": false,
+        "is_deleted": false,
+        "created": "2019-06-26T21:18:24.803Z",
+        "updated": "2019-06-26T21:18:24.803Z"
+    }
+},
+{
+    "model": "courses.courseparticipant",
+    "pk": 4,
+    "fields": {
+        "course": 1,
+        "student": 1,
+        "completed": false,
+        "is_deleted": false,
+        "created": "2019-06-26T21:18:31.922Z",
+        "updated": "2019-06-26T21:18:31.922Z"
+    }
+}
+]

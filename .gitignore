@@ -1,0 +1,14 @@
+*.log.*
+*.pyc
+*.swp
+*.sqlite3
+*.mo
+*.ini
+*.log
+*.rdb
+*.bak
+*.dat
+*.dir
+*.pid
+
+/static/
